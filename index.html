@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body >
+    <table id="tabla-sitios">
+    </table>
+    <br>
+    <button id="btnMostrarFormulario" class="new-btn">Nuevo Registro</button>
+    <br><br>
+    <form id="formulario-agregar" style="display: none;">
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="direccion" placeholder="Direccion">
+        <select name="categoria" id="mostar-lista" class="form-option"></select>
+        <button type="submit" class="save-btn">Guardar</button>
+    </form>
+    <button onclick="abrirVentana()" class="new-btn">Categorias</button>
+      
+<script src="js/sitios.js"></script>
+</body>
+</html>
+  
